@@ -1,0 +1,168 @@
+Fri Mar 26 19:16:16 UTC 2021: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:32:7: error: expected identifier or ‘(’ before ‘->’ token
+   List->
+       ^~
+list.c:34:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:21:14 UTC 2021: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:32:9: error: unused variable ‘list’ [-Werror=unused-variable]
+   List* list = malloc(sizeof(List));
+         ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:45:28 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:37:13: error: expected expression before ‘void’
+      return void;
+             ^~~~
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c: In function ‘createList’:
+list.c:38:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+list.c: In function ‘prevList’:
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:46:08 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:37:13: error: expected expression before ‘List’
+      return List;
+             ^~~~
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c: In function ‘createList’:
+list.c:38:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+list.c: In function ‘prevList’:
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:48:19 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:48:27 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:51:06 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:51:12 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:37:13: error: expected expression before ‘List’
+      return List;
+             ^~~~
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c: In function ‘createList’:
+list.c:38:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+list.c: In function ‘prevList’:
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:51:23 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:52:13 UTC 2021: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function ‘prevList’:
+list.c:53:6: error: expected ‘(’ before ‘list’
+   if list == front
+      ^~~~
+list.c:53:6: error: statement with no effect [-Werror=unused-value]
+list.c:55:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 26 19:52:36 UTC 2021: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+2a3bfc2
