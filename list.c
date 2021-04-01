@@ -113,6 +113,12 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, const void * data) {
+
+  Node *nodoPush = createNode(data);
+  if (list->head == NULL){
+    list->tail = nodoPush;
+
+  }
 }
 
 void pushBack(List * list, const void * data) {
