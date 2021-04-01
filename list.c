@@ -114,10 +114,14 @@ void * prevList(List * list) {
 
 void pushFront(List * list, const void * data) {
 
+  if (list == NULL){
+    
+    return ;
+  }
+
   Node *nodoPush = createNode(data);
   if (list->head == NULL){
     list->tail = nodoPush;
-
   }
 }
 
