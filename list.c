@@ -122,6 +122,7 @@ void pushFront(List * list, const void * data) {
   }else{
 
     nodoPush->next = list->head;
+    list->head->prev = nodoPush;
   }
 }
 
