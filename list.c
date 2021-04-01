@@ -143,7 +143,7 @@ void pushCurrent(List * list, const void * data) {
     list->current = nodoPC;
   }else{
 
-    nodoPC->next = list->current;
+    nodoPC->prev = list->head;
     list->head->next = nodoPC;
   }
   list->current->next = nodoPC;
