@@ -140,7 +140,8 @@ void pushCurrent(List * list, const void * data) {
   
   if (list->head == NULL){
 
-    list->current = nodoPC;
+
+    list->tail = nodoPC;
   }else{
 
     nodoPC->prev = list->head;
