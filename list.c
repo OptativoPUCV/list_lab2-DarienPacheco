@@ -123,7 +123,6 @@ void pushFront(List * list, const void * data) {
 
     nodoPush->next = list->head;
     list->head->prev = nodoPush;
-    
   }
   list->head = nodoPush;
   
@@ -136,6 +135,19 @@ void pushBack(List * list, const void * data) {
 }
 
 void pushCurrent(List * list, const void * data) {
+
+  Node *nodoPC = createNode(data);
+
+  if (list->head == NULL){
+
+    list->current = nodoPC;
+  }else{
+
+    nodoPC->next = list->head;
+    list->head->prev = nodoPC;
+  }
+  list->head = nodoPC;
+  
 
 }
 
