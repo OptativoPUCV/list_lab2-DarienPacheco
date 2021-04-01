@@ -59,13 +59,13 @@ void * nextList(List * list) {
 
     return NULL;
   }
-  if (list->current->next == NULL){
+  if (list->current == NULL){
 
     return NULL;
   }
   list->current = list->current->next;
 
-  return (void*)list->current->data;
+  return (void*) list->current->data;
 }
 
 void * lastList(List * list) {
