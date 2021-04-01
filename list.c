@@ -138,7 +138,7 @@ void pushCurrent(List * list, const void * data) {
 
   Node *nodoPC = createNode(data);
   
-  if (list->head == NULL){
+  if (list->tail == NULL){
 
     list->current = nodoPC;
   }else{
