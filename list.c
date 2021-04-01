@@ -59,7 +59,7 @@ void * nextList(List * list) {
 
     return NULL;
   }
-  if (list->head->next == NULL){
+  if (list->current->next == NULL){
 
     return NULL;
   }
