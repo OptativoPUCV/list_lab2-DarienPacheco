@@ -124,6 +124,7 @@ void pushFront(List * list, const void * data) {
     nodoPush->next = list->head;
     list->head->prev = nodoPush;
   }
+  list->head = nodoPush;
 }
 
 void pushBack(List * list, const void * data) {
