@@ -63,6 +63,10 @@ void * nextList(List * list) {
 
     return NULL;
   }
+  if (list->current == NULL){
+
+    return NULL;
+  }
   if (list->current->next == NULL){
 
     return NULL;
