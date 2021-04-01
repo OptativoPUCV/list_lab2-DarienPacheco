@@ -145,7 +145,7 @@ void pushCurrent(List * list, const void * data) {
 
     nodoPC->prev = list->head;
     list->current->next = nodoPC;
-    
+    list->current->next->prev = list->current;
     
   }
 
