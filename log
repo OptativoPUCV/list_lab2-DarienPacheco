@@ -221,3 +221,9 @@ Thu Apr  1 01:51:49 UTC 2021:
  tests:  6|4
 total_score: 25/70
 9cdd0d4
+Thu Apr  1 01:53:54 UTC 2021: 
+ list.c | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+ tests:  9|3
+total_score: 35/70
+ba5432e
